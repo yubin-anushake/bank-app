@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yubi - Frontend Journey</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header class="navbar">
+      <h1>Yubi</h1>
+      <p>Frontend Developer in Progress 🚀</p>
+      <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <div class="heading">
+        <h1>Bank App</h1>
+      </div>
+
+      <div class="accounts-container">
+        <div class="account-card">
+          <h2 class="cardHead">Yubi Account</h2>
+          <div class="cardBody">
+            <p>Balance: <span id="balance"></span></p>
+
+            <input id="deposit-input" placeholder="Enter amount">
+            <button id="deposit-btn">Deposit</button>
+
+            <input placeholder="Enter amount" id="withdraw-input">
+            <button id="withdraw-btn">Withdraw</button>
+
+            <input id="transfer-input" placeholder="Transfer to Mom">
+            <button id="transfer-btn">Transfer</button> 
+
+            <h3>Transactions</h3>
+            <ul id="transactions"></ul>
+          </div>
+        </div>
+        
+        <div class="account-card">
+          <h2>Mom Account</h2>
+          <p>Balance: <span id="balance-1"></span></p>
+
+          <input id="deposit-input-1" placeholder="Enter amount">
+          <button id="deposit-btn-1">Deposit</button>
+
+          <input placeholder="Enter amount" id="withdraw-input-1">
+          <button id="withdraw-btn-1">Withdraw</button>
+
+          <input id="transfer-input-1" placeholder="Transfer to Yubi">
+          <button id="transfer-btn-1">Transfer</button> 
+
+          <h3>Transactions</h3>
+          <ul id="transactions-1"></ul>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2026 Yubi</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
