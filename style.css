@@ -18,6 +18,10 @@ nav a {
   border-bottom: 1px solid #ddd;
   gap: 10px;
 }
+.navbar a{
+  text-decoration: none;
+  color: black;
+}
 .navbar nav {
   display: flex;
   gap: 20px;
@@ -56,12 +60,26 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
-button:hover {
-  background: #43a047;
+.withdraw-btn{
+  background-color: red;
+}
+.transfer-btn{
+  background-color: orange;
 }
 ul {
   padding-left: 18px;
 }
 li {
   margin-bottom: 5px;
+}
+.deposit {
+  color: green;
+}
+
+.withdraw {
+  color: red;
+}
+
+.transfer {
+  color: orange;
 }
